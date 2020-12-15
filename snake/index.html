@@ -98,6 +98,16 @@ hr {
     border: 1px solid white;
   }
 
+
+  .scores{
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    position: absolute;
+    color: white;
+  }
+
+
   .score{
     top: 10%;
     left: 50%;
@@ -107,7 +117,8 @@ hr {
   </style>
 </head>
 <body>
-
+  
+  <h1 class="scores">Goal : 30</h1>
   <h1 class="score" id="score-container">0</h1>
 
   <div id="id01" class="modal">
@@ -117,6 +128,7 @@ hr {
       </div>
       <div class="content-container">
           <p>Wohooooo</p>
+          <p>Next target : 1500</p>
       </div>
       <div class="bottom-container">
           <a href="../spaceinvaders/spaceinvader.html"><button> Proceed to next Challenge</button></a>
