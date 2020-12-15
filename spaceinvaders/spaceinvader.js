@@ -217,7 +217,7 @@ function drawInvaders() {
             if (ship.toDelete) {
                 console.log("hit")
                 setup()
-                document.getElementById('game-statu').innerText = "Game Status : New Game";
+                document.getElementById('game-status').innerText = "Game Status : New Game";
             }
         }
         if (flowers2[i].y > height) {
