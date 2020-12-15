@@ -95,7 +95,7 @@ function draw(){
         
         if(pipe[i].x == 5){
             score++;
-            if(score >= 5){
+            if(score >= 4){
                 var modal = document.getElementById("id01");
 
                 // Get the button that opens the modal
